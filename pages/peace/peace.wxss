@@ -1,0 +1,14 @@
+.musical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 330px;
+}
+.biankuang {
+  border-radius: 50%;
+}

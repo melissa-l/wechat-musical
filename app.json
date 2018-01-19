@@ -1,12 +1,42 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/musical/musical",
+    "pages/peace/peace",
+    "pages/sad/sad"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/musical/musical",
+        "iconPath": "image/happy.png",
+        "selectedIconPath": "image/happy.png",
+        "text": "happy"
+      },
+      {
+        "pagePath": "pages/peace/peace",
+        "iconPath": "image/emmm.png",
+        "selectedIconPath": "image/emmm.png",
+        "text": "peace"
+      },
+      {
+        "pagePath": "pages/sad/sad",
+        "iconPath": "image/sad.png",
+        "selectedIconPath": "image/sad.png",
+        "text": "sad"
+      },
+      {
+        "pagePath": "pages/musical/musical",
+        "iconPath": "image/wtf.png",
+        "selectedIconPath": "image/wtf.png",
+        "text": "wtf"
+      }
+    ]
   }
 }

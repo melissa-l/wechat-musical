@@ -8,6 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text bindtap="bindViewTapM" class="user-motto" src="{{userInfo.avatarUrl}}">{{motto}}</text>
   </view>
 </view>

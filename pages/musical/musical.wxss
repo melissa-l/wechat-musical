@@ -1,0 +1,30 @@
+.musical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 330px;
+}
+.biankuang {
+  border-radius: 50%;
+  border: 5px solid #DCDCDC;
+  animation: bian 5s linear infinite;
+}
+.go {
+  transform: rotateY(180deg);
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+@keyframes bian
+{
+	from {transform:rotate(0);}
+	to {transform:rotate(360deg);}
+}

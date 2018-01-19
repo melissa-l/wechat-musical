@@ -1,0 +1,7 @@
+<!-- musical.wxml -->
+
+<view class="musical">
+  <div class="container">
+    <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="/image/bk1.png" class="biankuang"/>
+  </div>
+</view>
