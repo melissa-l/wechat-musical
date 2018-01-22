@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "sad"
+  "navigationBarTitleText": "Sad",
+  "usingComponents": {
+    "Musical": "/components/musical/musical"
+  }
 }

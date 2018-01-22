@@ -1,8 +1,4 @@
-//peace.js
-const util = require('../../utils/util.js')
-const innerAudioContext = wx.createInnerAudioContext()
-const ANIMATION = "animation: "
-const WHIRL = "whirl 10s linear infinite"
+//happy.js
 const RES = require('./res')
 const RESOURCE = []
 RES.map((res, idx)=>{
@@ -10,11 +6,6 @@ RES.map((res, idx)=>{
     Object.assign(res,{index: idx})
   )
 })
-const TOAST = {
-  last: "前面没有歌歌了...",
-  next: "后面没有歌歌了...",
-  museResErr: "音乐加载失败...(哭唧唧)"
-}
 
 Page({
   data: {
@@ -22,6 +13,7 @@ Page({
     play: true,
     whirl: "none",
     list: RESOURCE,
+    index: RESOURCE[0],
     toast: undefined,
     hide: true
   },
@@ -42,6 +34,11 @@ Page({
     //   })
     //   console.log(res.errMsg)
     //   console.log(res.errCode)
+    // })
+    // this.setData({
+    //   logs: (wx.getStorageSync('logs') || []).map(log => {
+    //     return util.formatTime(new Date(log))
+    //   })                             
     // })
   },
   onShow: function () {

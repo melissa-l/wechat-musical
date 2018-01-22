@@ -32,7 +32,8 @@
   height: 500rpx; 
   background-color: #eeeeee;
   border-radius: 50%;
-  border: 15rpx solid #c0c0c0;
+  border: 30rpx solid #c0c0c0;
+  box-sizing:border-box;
 }
 .picture .icon {
   position: absolute;

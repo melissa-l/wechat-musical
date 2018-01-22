@@ -1,7 +1,22 @@
-<!-- musical.wxml -->
-
+<!-- sad.wxml -->
 <view class="musical">
-  <div class="container">
-    <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="/image/bk1.png" class="biankuang"/>
+  <block wx:if="{{hide}}">
+    <Musical list="{{list}}" ></Musical>
+  </block>
+  <div class="lyric">
+    <p>start</p>
+    <p>生命在时间的洪流中</p>
+    <p>时而平顺时而波折</p>
+    <p>不停的将久远的记录</p>
+    <p>编织在双重的螺旋之上</p>
+    <p>我唱咏着</p>
+    <p>这首歌</p>
+    <p>不断的把刹那的记忆</p>
+    <p>刻画在人们的心中</p>
+    <p>Al a re la ye</p>
+    <p>end</p>
+  </div>
+  <div wx:if="{{toast}}" class="toast">
+    <text>{{toast}}</text>
   </div>
 </view>

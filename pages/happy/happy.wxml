@@ -1,4 +1,4 @@
-<!-- peace.wxml -->
+<!-- happy.wxml -->
 <view class="musical">
   <block wx:if="{{hide}}">
     <Musical list="{{list}}" ></Musical>

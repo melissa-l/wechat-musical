@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/musical/musical",
+    "pages/happy/happy",
     "pages/peace/peace",
     "pages/sad/sad"
   ],
@@ -14,7 +14,7 @@
     "selectedColor": "black",
     "list": [
       {
-        "pagePath": "pages/musical/musical",
+        "pagePath": "pages/happy/happy",
         "iconPath": "image/happy.png",
         "selectedIconPath": "image/happy.png",
         "text": "happy"
@@ -32,7 +32,7 @@
         "text": "sad"
       },
       {
-        "pagePath": "pages/musical/musical",
+        "pagePath": "pages/happy/happy",
         "iconPath": "image/wtf.png",
         "selectedIconPath": "image/wtf.png",
         "text": "wtf"
