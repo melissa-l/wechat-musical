@@ -27,7 +27,7 @@ module.exports = [
     name: "La Vie En Rose",
     singer: "小野リサ",
     picture: "https://image.xiaotaiyang.org/upload/2/a7/2a748fba7ec6058d3dd2c39be9993516.jpg",
-    muse: "http://m10.music.126.net/20180119205217/db8bb422f4d0b56578ec3b7248ce468c/ymusic/ca10/8335/134b/1526cec378172e96fd97fdce88fe9560.mp3"
+    muse: "http://ip.h5.ra03.sycdn.kuwo.cn/e3c3d169223deab1c97f88fdd3b97bbe/5a65c7f3/resource/a3/48/34/79/1255040426.aac"
   },
   {
     name: "Way Back Into Love",

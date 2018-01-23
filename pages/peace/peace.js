@@ -1,8 +1,4 @@
 //peace.js
-const util = require('../../utils/util.js')
-const innerAudioContext = wx.createInnerAudioContext()
-const ANIMATION = "animation: "
-const WHIRL = "whirl 10s linear infinite"
 const RES = require('./res')
 const RESOURCE = []
 RES.map((res, idx)=>{
@@ -26,23 +22,6 @@ Page({
     hide: true
   },
   onLoad: function () {
-    // innerAudioContext.autoplay = true
-    // innerAudioContext.loop = true
-    // innerAudioContext.src = this.data.index.muse
-    // innerAudioContext.onPlay(() => {
-    //   this.setData({ 
-    //     whirl: `${ANIMATION}${WHIRL}`
-    //   })
-    // })
-    // innerAudioContext.onError((res) => {
-    //   this.toast(TOAST.museResErr, 2000)
-    //   this.setData({
-    //     play: false,
-    //     whirl: `${ANIMATION}none`
-    //   })
-    //   console.log(res.errMsg)
-    //   console.log(res.errCode)
-    // })
   },
   onShow: function () {
     this.setData({ hide: true })

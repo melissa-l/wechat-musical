@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "Happy",
+  "backgroundColor": "#ffffff",
+  "enablePullDownRefresh": true,
   "usingComponents": {
     "Musical": "/components/musical/musical"
   }

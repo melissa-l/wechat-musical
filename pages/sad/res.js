@@ -27,7 +27,7 @@ module.exports = [
       name: "伤心的人别听慢歌",
       singer: "五月天",
       picture: "https://img1.doubanio.com/lpic/s26699797.jpg",
-      muse: "http://ip.h5.rc03.sycdn.kuwo.cn/ad3073804e03758cb43f39e4099ec4ea/5a6458e2/resource/a2/2/11/2741431740.aac"
+      muse: "http://ip.h5.nf03.sycdn.kuwo.cn/449ef190cb9ce4a2fdf3453109a85bd6/5a655727/resource/a3/39/99/2122955568.aac"
     },
     {
       name: "春祭",

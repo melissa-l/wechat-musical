@@ -1,7 +1,20 @@
 <!-- happy.wxml -->
 <view class="musical">
   <block wx:if="{{hide}}">
-    <Musical list="{{list}}" ></Musical>
+    <view class="inner">
+      <div class="container">
+        <image bindtap="last" src="/image/back.png" class="last" />
+        <div class="picture" bindtap="onClickImg">
+          <image class="index" src="{{index.picture}}" style="{{whirl}}" />
+          <image wx:if="{{!play}}" class="icon" src="/image/play.png" />
+        </div>
+        <image bindtap="next" src="/image/back.png" class="go"/>
+      </div>
+      <div class="name">
+        <text class="user-motto">{{index.name}}</text>
+        <text class="user-motto">歌手：{{index.singer}}</text>
+      </div>
+    </view>
   </block>
   <div class="lyric">
     <p>start</p>

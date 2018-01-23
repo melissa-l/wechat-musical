@@ -12,13 +12,13 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../happy/happy'
     })
   },
   //事件处理函数-m
   bindViewTapM: function () {
     wx.navigateTo({
-      url: '../musical/musical'
+      url: '../happy/happy'
     })
   },
   onLoad: function () {

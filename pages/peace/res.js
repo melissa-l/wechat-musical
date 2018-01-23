@@ -3,7 +3,7 @@ module.exports = [
       name: "Drive",
       singer: "Oh Wonder",
       picture: "https://images.genius.com/b92ec0b6abbacacefb26fd2f0b4f31e6.500x500x1.jpg",
-      muse: "http://dl.stream.qqmusic.qq.com/C400003KZehO34LSjs.m4a?vkey=8CCEBBF22CAA3BC57564F37720959FFA7343688690190B02C7C56D6F8CE34785CD64BE1961042BAA03B1BBBF801B4EB85771C8638038C649&guid=1161167824&uin=872283197&fromtag=66"
+      muse: "http://ip.h5.ri03.sycdn.kuwo.cn/a1c7cfb51a7d1f4008af3cfad71d7eca/5a65c75a/resource/a3/93/57/2131369376.aac"
     },
     {
       name: "还是会寂寞",

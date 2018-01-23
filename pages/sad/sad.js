@@ -25,25 +25,8 @@ Page({
     toast: undefined,
     hide: true
   },
-  onLoad: function () {
-    // innerAudioContext.autoplay = true
-    // innerAudioContext.loop = true
-    // innerAudioContext.src = this.data.index.muse
-    // innerAudioContext.onPlay(() => {
-    //   this.setData({ 
-    //     whirl: `${ANIMATION}${WHIRL}`
-    //   })
-    // })
-    // innerAudioContext.onError((res) => {
-    //   this.toast(TOAST.museResErr, 2000)
-    //   this.setData({
-    //     play: false,
-    //     whirl: `${ANIMATION}none`
-    //   })
-    //   console.log(res.errMsg)
-    //   console.log(res.errCode)
-    // })
-  },
+  // onLoad: function () {
+  // },
   onShow: function () {
     this.setData({ hide: true })
   },
